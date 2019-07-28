@@ -26,4 +26,9 @@ public class Rifle {
         bullet = null;
     }
 
+    public void reload(@NotNull final Bullet bullet) {
+        setBullet(bullet);
+        System.out.println("The rifle was reloaded.");
+    }
+
 }
